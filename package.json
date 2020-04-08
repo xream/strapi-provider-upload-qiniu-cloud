@@ -1,0 +1,27 @@
+{
+  "name": "strapi-provider-upload-qiniu-cloud",
+  "version": "1.0.0",
+  "description": "Qiniu upload provider for strapi",
+  "keywords": [
+    "strapi-provider",
+    "upload",
+    "qiniu",
+    "strapi"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "qiniu": "^7.3.0"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "engines": {
+    "node": ">= 9.0.0",
+    "npm": ">= 5.3.0"
+  },
+  "license": "MIT"
+}
