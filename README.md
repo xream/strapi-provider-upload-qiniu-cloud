@@ -1,4 +1,4 @@
-# strapi-provider-upload-qiniu-neue
+# strapi-provider-upload-qiniu-cloud
 
 **Example**
 
