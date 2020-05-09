@@ -34,7 +34,7 @@ change fields marked `// change`
           "fileType": 0,
           "forceSaveKey": true,
           "saveKey": "keyPrefix/#{year}#{mon}#{day}#{hour}#{min}#{sec}#{etag}_uid__magic_#{ext}",
-          "returnBody": "{\"src\":\"_baseURL_/#(key)\",\"type\":\"#(mimeType)\",\"name\":\"#(fname)\"}"
+          "returnBody": "{\"url\":\"_baseURL_/#(key)\",\"mime\":\"#(mimeType)\",\"ext\":\"#(ext)\",\"fsize\":\"#(fsize)\",\"width\":\"#(imageInfo.width)\",\"height\":\"#(imageInfo.height)\",\"name\":\"#(fprefix)\"}"
         },
         "image": {
           "bucket": "bucket",
@@ -48,7 +48,7 @@ change fields marked `// change`
           "fileType": 0,
           "forceSaveKey": true,
           "saveKey": "keyPrefix/#{year}#{mon}#{day}#{hour}#{min}#{sec}#{etag}_uid__magic_#{ext}",
-          "returnBody": "{\"src\":\"_baseURL_/#(key)\",\"type\":\"#(mimeType)\",\"name\":\"#(fname)\"}",
+          "returnBody": "{\"url\":\"_baseURL_/#(key)\",\"mime\":\"#(mimeType)\",\"ext\":\"#(ext)\",\"fsize\":\"#(fsize)\",\"width\":\"#(imageInfo.width)\",\"height\":\"#(imageInfo.height)\",\"name\":\"#(fprefix)\"}",
           "mimeLimit": "image/*",
           "_client": true
         },
@@ -64,7 +64,7 @@ change fields marked `// change`
           "fileType": 0,
           "forceSaveKey": true,
           "saveKey": "keyPrefix/#{year}#{mon}#{day}#{hour}#{min}#{sec}#{etag}_uid__magic_#{ext}",
-          "returnBody": "{\"src\":\"_baseURL_/#(key)\",\"type\":\"#(mimeType)\",\"name\":\"#(fname)\"}",
+          "returnBody": "{\"url\":\"_baseURL_/#(key)\",\"mime\":\"#(mimeType)\",\"ext\":\"#(ext)\",\"fsize\":\"#(fsize)\",\"width\":\"#(imageInfo.width)\",\"height\":\"#(imageInfo.height)\",\"name\":\"#(fprefix)\"}",
           "mimeLimit": "video/*",
           "_client": true
         },
@@ -80,7 +80,7 @@ change fields marked `// change`
           "fileType": 0,
           "forceSaveKey": true,
           "saveKey": "keyPrefix/#{year}#{mon}#{day}#{hour}#{min}#{sec}#{etag}_uid__magic_#{ext}",
-          "returnBody": "{\"src\":\"_baseURL_/#(key)\",\"type\":\"#(mimeType)\",\"name\":\"#(fname)\"}",
+          "returnBody": "{\"url\":\"_baseURL_/#(key)\",\"mime\":\"#(mimeType)\",\"ext\":\"#(ext)\",\"fsize\":\"#(fsize)\",\"width\":\"#(imageInfo.width)\",\"height\":\"#(imageInfo.height)\",\"name\":\"#(fprefix)\"}",
           "mimeLimit": "audio/*",
           "_client": true
         },
@@ -96,7 +96,7 @@ change fields marked `// change`
           "fileType": 0,
           "forceSaveKey": true,
           "saveKey": "keyPrefix/#{year}#{mon}#{day}#{hour}#{min}#{sec}#{etag}_uid__magic_#{ext}",
-          "returnBody": "{\"src\":\"_baseURL_/#(key)\",\"type\":\"#(mimeType)\",\"name\":\"#(fname)\"}",
+          "returnBody": "{\"url\":\"_baseURL_/#(key)\",\"mime\":\"#(mimeType)\",\"ext\":\"#(ext)\",\"fsize\":\"#(fsize)\",\"width\":\"#(imageInfo.width)\",\"height\":\"#(imageInfo.height)\",\"name\":\"#(fprefix)\"}",
           "mimeLimit": "application/json"
         }
       }
